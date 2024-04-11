@@ -30,10 +30,12 @@ All output data will be stored under `database` directory
 
 ### API Endpoints
 
+```
 METHOD ROUTE ...................................................................... HANDLER MIDDLEWARE
 GET    /:id/metrics ................................. #controllers/metrics_controller.index
 GET    /:id/snapshot_policy ............... #controllers/snapshot_policies_controller.index
 PUT    /:id/snapshot_policy .............. #controllers/snapshot_policies_controller.update
+```
 
 ---
 
