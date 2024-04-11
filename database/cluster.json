@@ -1,0 +1,26 @@
+{
+  "clusters": [
+    {
+      "id": "123e4567-e89b-12d3-a456-426655440000",
+      "name": "qumuto-app",
+      "snapshot_policy": {
+        "clusterId": "123e4567-e89b-12d3-a456-426655440000",
+        "name": "ProjectX_Daily",
+        "directory": "prod/bucket",
+        "scheduleType": "daily",
+        "timezone": "America/Toronto",
+        "scheduleTime": "07:00",
+        "scheduleDays": [
+          2,
+          3,
+          4
+        ],
+        "snapshotRetentionPolicy": "auto",
+        "snapshotRetentionDuration": 99,
+        "snapshotRetentionType": "day",
+        "enableLockedSnapshot": false,
+        "enablePolicy": true
+      }
+    }
+  ]
+}
